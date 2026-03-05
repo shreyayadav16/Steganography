@@ -18,7 +18,7 @@ This project implements Image steganography using the Least Significant Bit(LSB)
 - compile the program using GCC :
        gcc main.c encode.c decode.c -o stego  or gcc *.c -o stego
   
-# usage
+# Usage
 - Encode secret message into image
   ./stego -e input.bmp secret.txt output.bmp
   
