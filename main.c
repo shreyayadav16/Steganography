@@ -88,6 +88,7 @@ int main(int argc, char *argv[])
 }
 
 // Function defination
+
 OperationType check_operation_type(char *symbol)
 {
     if (strcmp(symbol, "-e") == 0)
